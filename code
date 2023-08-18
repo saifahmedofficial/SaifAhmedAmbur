@@ -1,0 +1,20 @@
+# Business Sales Calculation
+
+# Define the product details
+product_name = "Widget"
+unit_price = 10.00
+quantity_sold = 500
+
+# Calculate total revenue and cost
+total_revenue = unit_price * quantity_sold
+total_cost = 3000.00
+
+# Calculate profit
+profit = total_revenue - total_cost
+
+# Display the results
+print(f"Product: {product_name}")
+print(f"Quantity Sold: {quantity_sold}")
+print(f"Total Revenue: ${total_revenue:.2f}")
+print(f"Total Cost: ${total_cost:.2f}")
+print(f"Profit: ${profit:.2f}")
